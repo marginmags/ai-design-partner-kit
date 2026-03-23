@@ -32,7 +32,7 @@ Ask these one at a time. Wait for answers. Don't rush through them:
 2. **What's the one-sentence version?** (Force clarity — if they can't say it in one sentence, help them get there)
 3. **Who is it for?** (Users, audience, clients — get specific names or archetypes if possible)
 4. **What exists today?** (Nothing? A Figma file? A half-built repo? A napkin sketch?)
-5. **What does "done" look like for you right now?** (Not the grand vision — what would make this week feel like progress?)
+5. **What would you want to get done today?** (Not the grand vision — something small and concrete. "Pick a color palette," "outline the homepage," "figure out what tech to use." A session is usually 1–3 hours of focused work.)
 
 After these five, reflect back a summary and ask: *"Does that feel right, or am I missing something?"*
 
@@ -132,10 +132,13 @@ This is the most important skill. It defines the working relationship. Template:
 ```markdown
 # {Project Name} Second Brain
 
+## Sessions
+A session is one sitting — usually 1–3 hours. Each session has one goal: something small enough to finish today. Not a weekly plan, not a roadmap. Just "what are we doing right now?"
+
 ## Session Startup
 1. Read the latest worklog entry
 2. Read the product vision skill
-3. Confirm session goal (singular — one thing to accomplish)
+3. Ask what the designer wants to work on today (one concrete thing)
 4. Address open questions from last session
 
 ## Decision Hierarchy
@@ -166,19 +169,36 @@ This is the most important skill. It defines the working relationship. Template:
 ```markdown
 # {Project Name} Worklog
 
+## How Worklogs Work
+Worklogs are how context survives between sessions. At the end of every session, Claude writes one. The designer reviews it and adds their own thoughts. Next session, Claude reads the latest one to pick up where things left off.
+
+**Critical: Always use the Write tool to save worklogs to the filesystem. Never just show them in chat — they must exist as files so future sessions can read them.**
+
 ## Session Log Format
-Write to `worklogs/sessions/YYYY-MM-DD-HHMM.md`:
+Use the Write tool to create `worklogs/sessions/YYYY-MM-DD-HHMM.md`:
 
 # Session Log — YYYY-MM-DD HHMM
 
 ## Goal
-One clear thing we set out to accomplish.
+One clear thing we set out to accomplish this session.
 
 ## What Was Done
-Plain-language summary.
+Plain-language summary of what actually happened.
 
 ## Decisions Made
 - **Decision:** X — **Why:** Y
+(Capture every meaningful choice, even small ones. These are breadcrumbs for future sessions.)
+
+## What Claude Suggested vs. What Was Chosen
+- Suggested X, chose Y because Z
+(Only include if there were moments where the designer overrode Claude's recommendation. This calibrates the partnership.)
+
+## Dead Ends
+- Tried X, didn't work because Y
+(Don't hide what failed — it prevents repeating mistakes next session.)
+
+## How It Felt
+[Leave this section for the designer to fill in. Prompt them: "Anything you want to add about how this session felt? What was useful, what was frustrating?"]
 
 ## Open Questions
 - [ ] Unresolved questions for next time
@@ -186,9 +206,11 @@ Plain-language summary.
 ## Next Session
 One sentence: what to focus on next.
 
-## Session Structure
-- worklogs/sessions/ — individual session logs
-- worklogs/README.md — index of all sessions with one-line summaries
+## Worklog Mechanics
+- **Write location:** `worklogs/sessions/YYYY-MM-DD-HHMM.md` — always use the Write tool
+- **Update index:** After writing the session log, update `worklogs/README.md` with a one-line entry
+- **Designer review:** Show the designer the written file and ask them to fill in "How It Felt"
+- **Never skip this.** Even short sessions get a worklog. Context loss compounds.
 ```
 
 ---
@@ -258,7 +280,7 @@ After setup is complete, transition into the first real working session:
 >
 > All of this lives in your project folder as plain files you can read and edit anytime. Nothing is hidden.
 >
-> This is now session one. What do you want to work on?
+> A **session** is just one sitting — usually an hour or two. Pick one small thing you want to get done today. Not a weekly goal, not a roadmap. Just: what sounds useful right now?
 
 Let them drive. Use the skills you just generated. This is where they experience the pair partner model for the first time — make it count.
 
@@ -270,9 +292,9 @@ When the session is winding down (designer says they're done, or energy drops), 
 
 > Let's wrap up. I'll write the session log — you can review it and add anything I missed.
 
-1. Write the session worklog to `worklogs/sessions/YYYY-MM-DD-HHMM.md`
-2. Update `worklogs/README.md` with a one-line entry
-3. Show both files for the designer to review
+1. **Use the Write tool** to save the session worklog to `worklogs/sessions/YYYY-MM-DD-HHMM.md` — do NOT just show it in chat, it must be a real file on disk
+2. **Use the Write tool** to update `worklogs/README.md` with a one-line entry
+3. Confirm both files were written, then show the designer the worklog content and ask them to add their thoughts to the "How It Felt" section
 
 Then:
 
@@ -310,3 +332,5 @@ These apply throughout the entire onboarding:
 - **The onboarding IS the product.** If this conversation doesn't feel like a good pair session, the designer won't come back. Make it human.
 - **When in doubt, ask.** Don't assume you know what they mean. Designers think visually — ask for references, screenshots, examples.
 - **Don't explain the system unless asked.** They don't need to know about "skills" and "second brains" — they need to experience a Claude that remembers, pushes back, and holds context. The system is invisible infrastructure.
+- **Always write files to disk.** Skills, worklogs, CLAUDE.md — use the Write tool every time. Never just show file contents in chat. If it's not saved to the filesystem, future sessions can't read it and the whole system breaks.
+- **Session goals are small.** "Pick a color palette" not "design the whole app." New vibe coders don't know what's achievable yet — help them scope down, not up.

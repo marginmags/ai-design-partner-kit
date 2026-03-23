@@ -1,5 +1,7 @@
 # Design Partner Starter Kit
 
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
 Turn Claude into a pair partner for your software design project — not an assistant, a collaborator that holds context, pushes back, and grows with your work.
 
 This kit sets up a personalized workspace in about 15 minutes. Claude interviews you about your project, generates a set of skills tailored to what you're building, and establishes a session rhythm that carries context across conversations.
