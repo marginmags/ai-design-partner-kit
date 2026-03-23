@@ -133,7 +133,7 @@ This is the most important skill. It defines the working relationship. Template:
 # {Project Name} Second Brain
 
 ## Sessions
-A session is one sitting — usually 1–3 hours. Each session has one goal: something small enough to finish today. Not a weekly plan, not a roadmap. Just "what are we doing right now?"
+A project spans many sessions — days, weeks, maybe months. Each session is one sitting (usually 1–3 hours) with one small goal. The skills and worklogs exist so that every session picks up where the last one left off, even if it's been a week. Progress compounds because nothing gets lost.
 
 ## Session Startup
 1. Read the latest worklog entry
@@ -280,7 +280,9 @@ After setup is complete, transition into the first real working session:
 >
 > All of this lives in your project folder as plain files you can read and edit anytime. Nothing is hidden.
 >
-> A **session** is just one sitting — usually an hour or two. Pick one small thing you want to get done today. Not a weekly goal, not a roadmap. Just: what sounds useful right now?
+> The idea is that your project lives across many sessions — you might work on it for weeks or months. Each session is just one sitting, usually an hour or two. The setup we just did makes sure nothing gets lost between sessions, so every time you come back we pick up right where we left off.
+>
+> For now, pick one small thing you want to get done today. Not a weekly goal, not a roadmap. Just: what sounds useful right now?
 
 Let them drive. Use the skills you just generated. This is where they experience the pair partner model for the first time — make it count.
 
