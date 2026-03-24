@@ -84,9 +84,7 @@ Your skills and worklogs are valuable — they're the institutional memory of yo
 
 ## Feedback
 
-This kit is early and evolving. If you try it, I'd love to hear how it went:
-
-[FEEDBACK_FORM_URL]
+This kit is early and evolving. If you try it, I'd love to hear how it went, let me know!
 
 Even a few sentences helps — what worked, what was weird, what you'd change.
 
