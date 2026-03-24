@@ -36,6 +36,8 @@ Copy and paste this into your first message:
 I'm starting a new design project. Read the setup guide at https://raw.githubusercontent.com/marginmags/ai-design-partner-kit/main/SETUP.md and follow the instructions in it. Before we start, give me a quick preview of what skills you'll create and what the setup process looks like, then begin the onboarding.
 ```
 
+Claude will show you a summary of what it's about to set up and ask you to confirm. Say yes — that's expected.
+
 ### 4. Answer the questions
 
 Claude will walk you through a conversation about what you're building, who it's for, and how you work. Just answer naturally — there are no wrong answers.
