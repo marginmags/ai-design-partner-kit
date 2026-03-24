@@ -45,13 +45,29 @@ After all five, reflect back a summary and ask: *"Does that feel right, or am I 
 
 ---
 
-## Phase 2: Deeper Context
+## Phase 2: Generate the Base Skills
 
-**Do NOT skip this phase.** After the five basics, always ask the designer if they want to go deeper before generating skills. Say something like:
+**Don't wait for perfect information. Generate the core skills now from what you have.** They'll be rough — that's fine. Skills are living documents that get sharper as the project evolves.
 
-> I've got the basics. I'd recommend going a bit deeper before I set things up — a few more questions about your users, tech, or visual direction will make the skills much sharper. It usually takes 5–10 more minutes. Want to do that, or would you rather start working now?
+After confirming the Phase 1 summary, tell the designer:
 
-If they say go deeper, work through the relevant sections below (one question at a time, same rule as Phase 1). If they say start, move to Phase 3 — but the choice must be theirs, not yours.
+> Let me set up your workspace with what we've got so far. These skills will be rough to start — they'll get sharper as we work together.
+
+**Use the Write tool** to create the folder structure and the three core skills (second brain, vision, worklog) immediately. See the **Skill Reference** section below for templates and the **Folder Structure** section for the directory layout.
+
+Then move to Phase 3.
+
+---
+
+## Phase 3: Go Deeper (Recommended)
+
+After the base skills are written to disk, offer to go deeper:
+
+> Your base skills are set up. I'd recommend spending 5–10 more minutes going deeper — things like who your users really are, what tech you're considering, or what the visual direction looks like. I'll update the skills as we talk. Want to do that, or would you rather start working now?
+
+If they say go deeper, work through the relevant sections below (one question at a time, same rule as Phase 1). **After each section, update the relevant skill file on disk with what you learned.** Don't wait until the end — update as you go.
+
+If they say start, move to Phase 5 — but the choice must be theirs, not yours.
 
 ### Personas (if they have users)
 - Who are the 1–3 people this is for?
@@ -60,33 +76,45 @@ If they say go deeper, work through the relevant sections below (one question at
 
 Frame it as: *"Let's give these people names and make them real. When we make decisions later, we'll check against them."*
 
+→ **After this section:** Update the vision skill with persona details, or create a separate personas skill if there are 2+ detailed profiles.
+
 ### Jobs to Be Done (if they have a product)
 - What job is the user hiring this product to do?
 - What are they using today instead?
 - What would make them switch?
+
+→ **After this section:** Update the vision skill with JTBD framing.
 
 ### User Flows (if applicable)
 - What's the core loop? (The one thing a user does repeatedly)
 - What's the onboarding moment? (First experience)
 - Where do things break or get confusing today?
 
+→ **After this section:** Update the vision skill or create a separate flows skill if complex.
+
 ### Architecture / Tech (if they're building something)
 - What tech are you using or planning to use?
 - Any non-negotiables? (Framework, hosting, design tool, etc.)
 - What do you already know well vs. what's new to you?
+
+→ **After this section:** Create an architecture skill with stack decisions and constraints.
 
 ### Visual Direction (if design-focused)
 - Do you have a mood board, brand guide, or reference?
 - What's the aesthetic? (Describe in 3–5 words)
 - Any existing design system or tokens?
 
-After this phase, summarize everything back. Confirm alignment before proceeding.
+→ **After this section:** Create a design-system skill with visual rules and references.
+
+After going deeper, summarize what was added and confirm alignment before starting work.
 
 ---
 
-## Phase 3: Generate the Skill Set
+## Skill Reference
 
-Based on the interview, generate skills into a `.claude/commands/` directory. Every project gets these core skills:
+This section defines skill formats and templates. Referenced by Phase 2 (base skill generation) and Phase 3 (deeper skill updates).
+
+Generate skills into a `.claude/commands/` directory. Every project gets these core skills:
 
 ### Always Generate
 
@@ -171,6 +199,14 @@ A project spans many sessions — days, weeks, maybe months. Each session is one
 - **Between sessions:** Worklogs are the bridge
 - **Across project:** Skills capture patterns that emerge over 2+ sessions
 
+## Keeping Skills Alive
+Skills are living documents, not setup artifacts. Update them as the project evolves:
+- **When the designer makes a decision** that changes the vision, tech stack, or user understanding — update the relevant skill
+- **When a pattern emerges** across 2+ sessions (e.g., "we always end up discussing accessibility") — consider creating a new skill
+- **When a skill feels wrong** or outdated — rewrite it, don't just patch it
+- **After deeper conversations** about personas, flows, or architecture — update or create skills with what was learned
+- Always use the Write tool to save skill updates to disk. Skills only work if they're real files.
+
 ## What {Designer Name} Values
 [Fill from interview — what matters to them about how they work]
 ```
@@ -226,7 +262,7 @@ One sentence: what to focus on next.
 
 ---
 
-## Phase 4: Set Up the Folder Structure
+## Folder Structure
 
 Create this in the designer's project folder:
 
@@ -277,7 +313,7 @@ At the end of every session, prompt the designer to wrap up:
 
 ---
 
-## Phase 5: First Working Session
+## Phase 4: First Working Session
 
 After setup is complete, transition into the first real working session:
 
@@ -299,7 +335,7 @@ Let them drive. Use the skills you just generated. This is where they experience
 
 ---
 
-## Phase 6: Wrap-Up
+## Phase 5: Wrap-Up
 
 When the session is winding down (designer says they're done, or energy drops), prompt the wrap-up:
 
