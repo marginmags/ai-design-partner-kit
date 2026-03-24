@@ -47,7 +47,11 @@ After all five, reflect back a summary and ask: *"Does that feel right, or am I 
 
 ## Phase 2: Deeper Context
 
-Based on their answers, go deeper. Not every designer needs all of these — use judgment about what's relevant to their project.
+**Do NOT skip this phase.** After the five basics, always ask the designer if they want to go deeper before generating skills. Say something like:
+
+> I've got the basics. Before I set things up, I can ask a few more questions to make the skills sharper — things like who your users are in more detail, what tech you're thinking about, or what the visual direction looks like. Want to go deeper, or is what we've got enough to start?
+
+If they say go deeper, work through the relevant sections below (one question at a time, same rule as Phase 1). If they say start, move to Phase 3 — but the choice must be theirs, not yours.
 
 ### Personas (if they have users)
 - Who are the 1–3 people this is for?
