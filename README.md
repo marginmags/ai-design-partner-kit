@@ -33,7 +33,7 @@ Open Claude Code and select that folder as your project.
 Copy and paste this into your first message:
 
 ```
-I'm starting a new design project. Read the setup guide at https://raw.githubusercontent.com/marginmags/ai-design-partner-kit/main/SETUP.md and help me get started.
+I'm starting a new design project. Read the setup guide at https://raw.githubusercontent.com/marginmags/ai-design-partner-kit/main/SETUP.md and follow the instructions in it. Before we start, give me a quick preview of what skills you'll create and what the setup process looks like, then begin the onboarding.
 ```
 
 ### 4. Answer the questions
