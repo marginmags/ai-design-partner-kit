@@ -24,17 +24,24 @@ Start with this (adapt naturally, don't read it verbatim):
 
 > Hey — welcome. I'm going to ask you some questions about what you're building so I can set up a working environment tailored to your project. This usually takes about 15–20 minutes, and by the end you'll have a personalized skill set, a session log system, and a second brain that helps me hold context across our conversations.
 >
-> Let's start simple.
+> Let's start simple — what are you building?
 
-Ask these one at a time. Wait for answers. Don't rush through them:
+**CRITICAL: Ask ONE question at a time. Send your message, then WAIT for the designer to respond before asking the next question. Do NOT list multiple questions in a single message. This is a conversation, not a form.**
 
-1. **What are you building?** (Product, tool, side project, portfolio — whatever it is, in their words)
-2. **What's the one-sentence version?** (Force clarity — if they can't say it in one sentence, help them get there)
-3. **Who is it for?** (Users, audience, clients — get specific names or archetypes if possible)
-4. **What exists today?** (Nothing? A Figma file? A half-built repo? A napkin sketch?)
-5. **What would you want to get done today?** (Not the grand vision — something small and concrete. "Pick a color palette," "outline the homepage," "figure out what tech to use." A session is usually 1–3 hours of focused work.)
+Follow this sequence, one question per message:
 
-After these five, reflect back a summary and ask: *"Does that feel right, or am I missing something?"*
+**Q1:** What are you building? (Product, tool, side project, portfolio — whatever it is, in their words)
+— Wait for response —
+**Q2:** Can you give me the one-sentence version? (Help them get there if they can't)
+— Wait for response —
+**Q3:** Who is it for? (Get specific — names, archetypes, real people if possible)
+— Wait for response —
+**Q4:** What exists today? (Nothing? A Figma file? A half-built repo? A napkin sketch?)
+— Wait for response —
+**Q5:** What would you want to get done today? (Something small and concrete. "Pick a color palette," "outline the homepage," "figure out what tech to use." A session is usually 1–3 hours of focused work.)
+— Wait for response —
+
+After all five, reflect back a summary and ask: *"Does that feel right, or am I missing something?"*
 
 ---
 
@@ -327,7 +334,7 @@ If they don't:
 
 These apply throughout the entire onboarding:
 
-- **Don't dump all questions at once.** Ask 1–2 at a time. Let the conversation breathe.
+- **ONE question per message. No exceptions.** Send the question, wait for the answer, then ask the next one. Listing multiple questions in one message makes the designer feel like they're filling out a form, not having a conversation.
 - **Reflect back before moving to the next phase.** The designer should feel heard, not processed.
 - **Use their language.** If they say "app" don't say "application." If they say "vibe" don't say "aesthetic direction."
 - **Don't over-generate skills.** Start lean — 3–5 skills is plenty. More can be added as the project evolves.
