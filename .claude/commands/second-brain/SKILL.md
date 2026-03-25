@@ -87,10 +87,12 @@ After onboarding, give a brief orientation:
 
 Every session starts the same way:
 
-1. **Read the latest worklog** — scan `worklogs/sessions/` for the most recent entry. Summarize: what happened, what's open, what's next.
-2. **Read the vision skill** — re-anchor before doing anything.
+1. **Read the latest worklog** — open the most recent file in `worklogs/sessions/` (sort by filename, grab the last one). Don't read the README index — just go straight to the file.
+2. **Summarize with insight** — don't just recap what happened. Connect open questions to recent decisions. Flag what's stalled vs. moving. Note patterns across the last few sessions if they're relevant. The designer should feel like Claude remembers, not like Claude is reading a changelog.
 3. **Check open questions** — unresolved items from the last session are the first priority.
 4. **Ask what the designer wants to work on today** — one concrete thing. Not a list.
+
+Re-read the vision skill only when starting a new phase or when the session goal touches the product direction. Don't re-read it every time — it slows startup and the designer knows their vision.
 
 Never start work without this step. Context loss between sessions is the #1 way a project accumulates bad decisions.
 

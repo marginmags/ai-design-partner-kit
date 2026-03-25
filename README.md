@@ -50,7 +50,11 @@ When you're done, tell Claude to "wrap up." It writes a session log capturing wh
 
 ### 6. Next session
 
-Just open the same folder in Claude Code. Claude reads your skills and latest worklog automatically — no re-explaining needed. Your project picks up right where you left off, even if it's been days or weeks.
+Open the same folder in Claude Code and tell Claude:
+
+> Read the second brain skill and the worklog to catch up
+
+Claude reads your skills and latest worklog — no re-explaining needed. Your project picks up right where you left off, even if it's been days or weeks.
 
 ---
 
